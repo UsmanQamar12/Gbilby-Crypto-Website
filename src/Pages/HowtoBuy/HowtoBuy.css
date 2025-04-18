@@ -1,0 +1,214 @@
+body{
+  margin-top: 320px;
+}
+.howtobuy-header {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .howtobuy-content {
+    padding: 20px;
+  }
+  .button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin-top: 30px !important;
+    margin: 40px auto;
+  }
+  
+  .pump-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+  }
+  
+  .buy-button {
+    background: linear-gradient(45deg, #6fe714, #b1c504);
+    box-shadow: 0 4px 6px rgba(255, 63, 63, 0.2);
+  }
+  
+  .chart-button {
+    background: linear-gradient(45deg, #6fe714, #b1c504);
+    box-shadow: 0 4px 6px rgba(0, 102, 255, 0.2);
+  }
+  
+  .pump-button:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #65e206, #909f02);
+
+  }
+  
+  .pump-button:active {
+    transform: translateY(0);
+  }
+  /* SocialSection.css */
+.social-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  /* background: linear-gradient(45deg, #204501, #b1c504);
+  border-radius: 12px; */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: white;
+}
+
+
+
+.contract-container {
+  background: #3a3939ca;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.contract-label {
+  display: block;
+  font-size: 0.9rem;
+  color: white;
+  margin-bottom: 0.6rem;
+}
+.address-text {
+  flex: 1;
+}
+
+.copy-icon {
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+.contract-address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: #242323bb;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 1rem;
+  word-break: break-all;
+  color: white;
+  line-height: 1.4;
+}
+/* BuyGuide.css */
+.guide-header { 
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+.guide-container {
+  max-width: 670px;
+  margin: 2rem auto;
+  padding: 2rem 0px;
+  background: linear-gradient(45deg, #11a80c8a, #6a7105d5);
+  border-radius: 12px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem;
+  color: green !important;
+}
+
+.subtext {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+  font-size: 1.1rem;
+}
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  
+
+}
+
+.step-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.step-number {
+  background-color: #204501;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 5px 0;
+  border-radius: 40px;
+  min-width: 40px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.step-description {
+  margin: 0;
+  color: white;
+  line-height: 1.5;
+}
+
+.buyNow-button {
+  display: block;
+  width: fit-content;
+  margin: 2rem auto 0;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #6fe714, #b1c504);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.buyNow-button:hover {
+  background: linear-gradient(45deg, #65e206, #909f02);
+
+}
+
+.buyNow-button:active {
+  transform: translateY(0);
+}

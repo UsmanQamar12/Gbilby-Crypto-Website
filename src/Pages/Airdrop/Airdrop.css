@@ -1,0 +1,99 @@
+.airdrop-container {
+  padding: 1rem;
+  background: linear-gradient(135deg, #b9430c 0%, #f0dc24 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+/* Typography */
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.7rem;
+  color: green;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Boxes container */
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.airdrop-box {
+  flex: 1 1 300px;
+  min-width: 0; 
+  background: linear-gradient(45deg, #11a80c8a, #6a7105d5);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.airdrop-box:hover {
+  background: linear-gradient(45deg, #0a96058a, #585e01d5);
+}
+
+.airdrop-box h2 {
+  font-size: 1.5rem;
+  color: #FFF;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+.airdrop-box h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: yellow;
+}
+.reward{
+  color: yellow;
+}
+/* Content styles remain unchanged */
+
+/* Responsive design */
+@media (min-width: 1025px) {
+  .boxes-container {
+    flex-wrap: nowrap; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .airdrop-box {
+    flex-basis: 45%; 
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .boxes-container {
+    flex-direction: column;
+  }
+  
+  .airdrop-box {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+  
+  .main-description {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,152 @@
+.contact-container {
+  max-width: 1200px;
+  margin: 100px auto 95px auto;
+  padding: 0 1rem;
+}
+
+/* Main Header */
+.main-header {
+  font-size: 2.2rem;
+  color: green;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+/* Grid Layout */
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+.section-header {
+  font-size: 1.875rem;
+  color: green;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.header-underline {
+  padding-bottom: 0.5rem;
+}
+
+/* Info List */
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.125rem;
+  color: #4a5568;
+}
+
+.info-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Icon Colors */
+.globe, .location {
+  color: green;
+}
+.email {
+  color: rgb(131, 131, 237);
+}
+
+/* Links */
+.info-link {
+  color: #4a5568;
+  text-decoration: none;
+}
+.info-link:hover {
+  color: green;
+}
+
+/* Social Section */
+.social-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: #4a5568;
+  padding: 0.56rem;
+}
+
+.social-item:hover {
+  color: green;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Specific Social Icon Colors */
+.twitter {
+  color: black;
+}
+.discord {
+  color: rgb(60, 60, 252);
+}
+.telegram {
+  color: rgb(103, 83, 249);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .content-wrapper {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+
+  .main-header {
+    font-size: 2rem;
+    margin-bottom: 1.5rem; 
+  }
+
+  .section-header {
+    font-size: 1.5rem;
+  }
+
+  .info-list, .social-list {
+    margin-top: 1.5rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .info-item {
+    font-size: 1rem;
+  }
+
+  .social-item {
+    padding: 0.5rem;
+  }
+
+  .content-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .main-header {
+    font-size: 1.8rem;
+  }
+
+  .section-header {
+    font-size: 1.25rem;
+  }
+}
